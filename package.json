@@ -1,0 +1,23 @@
+{
+  "name": "github-custom-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sehindemi/github-custom-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sehindemi/github-custom-actions/issues"
+  },
+  "homepage": "https://github.com/Sehindemi/github-custom-actions#readme",
+  "description": "",
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  }
+}
