@@ -1,0 +1,17 @@
+name: custom actions
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout code
+      uses: actions/checkout@v2
+
+    - name: demi custom action
+      uses: Sehindemi/github-custom-actions@main
+      with:
+        who-to-greet: "Sehinde-Team"
+  
